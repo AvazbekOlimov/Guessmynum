@@ -20,7 +20,8 @@ function check() {
         if (randomNumber == checkValue) {
             message.textContent = '🏆 You Winner'            
             color.style.background = 'green'
-            const randomNumber = Math.floor(Math.random() * 20 + 1)
+            number.textContent = randomNumber            
+            // const randomNumber = Math.floor(Math.random() * 20 + 1)            
         }else if(randomNumber >= checkValue){
             message.textContent = '⬆️ Guess Higher Number'
         }else if(randomNumber <= checkValue){

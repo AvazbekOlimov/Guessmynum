@@ -123,22 +123,27 @@ h1 {
   margin-bottom: 2rem;  
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     html{
-      font-size: 7px;
+      font-size: 8px;
     }
 }
-@media (min-width: 425px) {
+@media (max-width: 425px) {
   html{
     font-size: 5px;
   }
 }
-@media (min-width: 375px) {
+@media (max-width: 375px) {
   html{
     font-size: 4px;
   }
 }
-@media (min-width: 320px) {
+@media (min-width: 1024px) {
+  html{
+    font-size: 9px;
+  }
+}
+@media (max-width: 320px) {
   html{
     font-size: 4px;
   }
