@@ -22,9 +22,9 @@ function check() {
             color.style.background = 'green'
             const randomNumber = Math.floor(Math.random() * 20 + 1)
         }else if(randomNumber >= checkValue){
-            message.textContent = '⬆️ Higher'
+            message.textContent = '⬆️ Guess Higher Number'
         }else if(randomNumber <= checkValue){
-            message.textContent = '⬇️ Lower'
+            message.textContent = '⬇️ Guess Lower Number'
         }
         scoreEl--
         score.textContent = scoreEl

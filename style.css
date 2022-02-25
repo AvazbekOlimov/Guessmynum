@@ -7,8 +7,9 @@
 }
 
 html {
-  font-size: 62.5%;
+  /* font-size: 62.5%; */
   box-sizing: border-box;
+  font-size: 10px;
 }
 
 body {
@@ -119,5 +120,26 @@ h1 {
 }
 
 .label-score {
-  margin-bottom: 2rem;
+  margin-bottom: 2rem;  
+}
+
+@media (min-width: 768px) {
+    html{
+      font-size: 7px;
+    }
+}
+@media (min-width: 425px) {
+  html{
+    font-size: 5px;
+  }
+}
+@media (min-width: 375px) {
+  html{
+    font-size: 4px;
+  }
+}
+@media (min-width: 320px) {
+  html{
+    font-size: 4px;
+  }
 }
